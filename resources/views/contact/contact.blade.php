@@ -2,13 +2,14 @@
 @include('layouts.partials.nav')
 <head>
     <link href="{{ asset('public/css/contact.style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 @section('content')
     <!--Section: Contact-->
     <section id="contact">
 
         <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+        <h2 class="mb-5 font-weight-bold text-center">Neem contact met ons op</h2>
 
         <!--Grid row-->
         <div class="row">
@@ -18,23 +19,27 @@
                 <!-- Form contact -->
                 <form class="p-5 grey-text">
                     <div class="md-form form-sm"> <i class="fa fa-user prefix"></i>
+                        <label for="form3">Je naam</label>
                         <input type="text" id="form3" class="form-control form-control-sm">
-                        <label for="form3">Your name</label>
+
                     </div>
                     <div class="md-form form-sm"> <i class="fa fa-envelope prefix"></i>
+                        <label for="form2">Je email</label>
                         <input type="text" id="form2" class="form-control form-control-sm">
-                        <label for="form2">Your email</label>
+
                     </div>
                     <div class="md-form form-sm"> <i class="fa fa-tag prefix"></i>
+                        <label for="form34">Onderwerp</label>
                         <input type="text" id="form32" class="form-control form-control-sm">
-                        <label for="form34">Subject</label>
+
                     </div>
                     <div class="md-form form-sm"> <i class="fa fa-pencil prefix"></i>
+                        <label for="form8">Je vraag</label>
                         <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
-                        <label for="form8">Your message</label>
+
                     </div>
                     <div class="text-center mt-4">
-                        <button class="btn btn-primary">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+                        <button class="btn btn-primary">Verstuur bericht <i class="fa fa-paper-plane-o ml-1"></i></button>
                     </div>
                 </form>
                 <!-- Form contact -->
@@ -50,7 +55,7 @@
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-12 mb-3">
 
-                        <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>New York, NY 10012</p>
+                        <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Urk, 8321 ZG</p>
 
                     </div>
                     <!--Grid column-->
@@ -58,7 +63,7 @@
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-3">
 
-                        <p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Mon - Fri, 8:00-22:00</p>
+                        <p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Maandag - Vrijdag, 8:00-22:00</p>
 
                     </div>
                     <!--Grid column-->
