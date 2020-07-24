@@ -54,9 +54,9 @@
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto px-lg-5">
             <li>
-                <button class="btn btn-outline-info mb-2" onclick="goBack()">Ga terug</button>
+                <button class="btn btn-outline-info mb-2  my-2 my-sm-0" onclick="goBack()">Ga terug</button>
             </li>
         </ul>
     </div>
