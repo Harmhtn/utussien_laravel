@@ -1,5 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="{{ url('/home') }}">Utussien</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+    <a class="navbar-brand" href="{{ url('/home') }}">
+{{--        <img src="{{ asset('images/ussien_logo.jpg') }}" width="auto" height="50px" style="border:1px solid black">--}}
+    </a>
 
     <div class="navbar" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
