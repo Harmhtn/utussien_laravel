@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@include('layouts.partials.nav')
 
 @section('content')
     <h1>Dit is de admin pagina</h1>

@@ -28,3 +28,6 @@ Route::resource('info', 'InfoController');
 
 // contact page
 Route::resource('contact', 'ContactController');
+
+// Booking page
+Route::resource('booking', 'BookingController');

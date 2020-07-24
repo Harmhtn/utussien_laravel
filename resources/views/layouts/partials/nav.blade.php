@@ -7,6 +7,9 @@
                 <a class="nav-link" href="{{route('info.index')}}">Info <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="{{route('booking.index')}}">Booking</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="{{route('contact.index')}}">Contact</a>
             </li>
             <li class="nav-item">
@@ -51,5 +54,18 @@
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
+        <ul class="navbar-nav ml-auto">
+            <li>
+                <button class="btn btn-outline-info mb-2" onclick="goBack()">Ga terug</button>
+            </li>
+        </ul>
     </div>
 </nav>
+
+{{--Go back button script--}}
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+@yield('script')
