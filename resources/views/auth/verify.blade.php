@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <head>
-    <link href="{{ asset() }}" rel="stylesheet">
+    <link href="" rel="stylesheet">
 </head>
 
 @section('content')
