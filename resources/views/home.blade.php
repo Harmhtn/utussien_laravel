@@ -4,7 +4,19 @@
 <!--Main Navigation-->
 <header>
 @yield('head')
+{{--    scripts--}}
+    <script>
+
+        // Load this when the DOM is ready
+        $(function(){
+            // You used .myCarousel here.
+            // That's the class selector not the id selector,
+            // which is #myCarousel
+            $('.carousel').carousel();
+        });
+    </script>
 <!-- Styles -->
+    <link href="{{ asset('css/main.style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/home.style.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -186,19 +198,19 @@
         <!--Section: Gallery-->
         <section id="gallery">
             <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold text-center">Gallerij titel</h2>
+            <h2 class="mb-5 font-weight-bold text-center">Nieuwsbericht</h2>
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
                 <div class="col-md-6 mb-4">
                     <!--Carousel Wrapper-->
-                    <div id="carousel-example-1z" class="carousel slide carousel-fade carousel-fade"
+                    <div id="carousel1" class="carousel slide carousel-fade carousel-fade"
                          data-ride="carousel">
                         <!--Indicators-->
                         <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel1" data-slide-to="1"></li>
+                            <li data-target="#carousel1" data-slide-to="2"></li>
                         </ol>
                         <!--/.Indicators-->
                         <!--Slides-->
@@ -227,11 +239,11 @@
                         </div>
                         <!--/.Slides-->
                         <!--Controls-->
-                        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Vorige</span>
                         </a>
-                        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Volgende</span>
                         </a>
@@ -384,5 +396,5 @@
 
     $('.carousel').carousel({
         interval: 3000,
-    })
+    });
 </script>

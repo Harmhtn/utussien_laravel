@@ -7,6 +7,8 @@
 @section('content')
     <!--Section: Contact-->
     <section id="contact">
+        <div class="container">
+        <button class="nav-link btn btn-outline-info m-2" onclick="goBack()">Ga terug</button>
 
         <!-- Heading -->
         <h2 class="mb-5 font-weight-bold text-center">Neem contact met ons op</h2>
@@ -87,7 +89,7 @@
 
         </div>
         <!--Grid row-->
-
+        </div>
     </section>
     <!--Section: Contact-->
 

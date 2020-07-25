@@ -4,9 +4,16 @@
     <link href="{{ asset('public/css/info.style.css') }}" rel="stylesheet">
 </head>
 @section('content')
-    <h1>Dit is de info pagina</h1>
-    <div>
+    <div class="container">
+        <button class="nav-link btn btn-outline-info m-2" onclick="goBack()">Ga terug</button>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1>Dit is de info pagina</h1>
+                <div>
 
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer class="row">

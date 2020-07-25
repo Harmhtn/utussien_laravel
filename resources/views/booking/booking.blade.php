@@ -5,6 +5,7 @@
 </head>
 @section('content')
     <div class="container">
+        <button class="nav-link btn btn-outline-info m-2" onclick="goBack()">Ga terug</button>
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <h1 class="mb-3">Boek een workshop</h1>
