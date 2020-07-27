@@ -2,6 +2,8 @@
 @include('layouts.partials.nav')
 <head>
     <link href="{{ asset('public/css/info.style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/main.style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/home.style.css') }}" rel="stylesheet">
 </head>
 @section('content')
     <div class="container">

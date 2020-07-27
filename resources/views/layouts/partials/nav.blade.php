@@ -1,10 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     <a class="navbar-brand" href="{{ url('/home') }}">
         't Kunstige Ussien
     </a>
 
-    <div class="navbar" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item active">
                 <a class="nav-link" href="{{route('info.index')}}">Info</a>
             </li>
@@ -14,11 +17,17 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{route('contact.index')}}">Contact</a>
             </li>
+        </ul>
+    </div>
+</nav>
+
+
+
 {{--            Admin link als je dit wilt toevoegen--}}
 {{--            <li class="nav-item">--}}
 {{--                <a class="nav-link" href="{{route('admin.index')}}">Admin</a>--}}
 {{--            </li>--}}
-        </ul>
+
 
         <!-- Right Side Of Navbar -->
 {{--        <ul class="navbar-nav ml-auto">--}}
@@ -53,8 +62,8 @@
 {{--                </li>--}}
 {{--            @endguest--}}
 {{--        </ul>--}}
-    </div>
-</nav>
+
+{{--</nav>--}}
 
 {{--Go back button script--}}
 <script>
