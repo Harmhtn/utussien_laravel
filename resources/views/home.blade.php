@@ -3,19 +3,19 @@
 
 <!--Main Navigation-->
 <header>
-@yield('head')
-{{--    scripts--}}
+    @yield('head')
+    {{--    scripts--}}
     <script>
 
         // Load this when the DOM is ready
-        $(function(){
+        $(function () {
             // You used .myCarousel here.
             // That's the class selector not the id selector,
             // which is #myCarousel
             $('#carousel').carousel();
         });
     </script>
-<!-- Styles -->
+    <!-- Styles -->
     <link href="{{ asset('css/main.style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/home.style.css') }}" rel="stylesheet">
 {{--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--}}
@@ -30,7 +30,7 @@
                         <hr class="hr-light">
                         <!-- Description -->
                         <h4 class="white-text my-4">
-                            </h4>
+                        </h4>
                     </div>
                 </div>
             </div>
@@ -41,61 +41,62 @@
 <!--Main Navigation-->
 <!--Main layout-->
 <main class="mt-5">
-    <div class="container">
-        <!--Section: Best Features-->
-        <section id="best-features" class="text-center">
-            <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold">Wat kun je verwachten</h2>
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center mb-4">
-                <!--Grid column-->
-                <div class="col-md-8">
-                    <!-- Description -->
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate
-                        hic
-                        provident nulla repellat
-                        facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis
-                        est
-                        sit pariatur.</p>
+        <div class="container">
+            <!--Section: Best Features-->
+            <section id="best-features" class="text-center">
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">Wat kun je verwachten</h2>
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+                    <!--Grid column-->
+                    <div class="col-md-8">
+                        <!-- Description -->
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate
+                            hic
+                            provident nulla repellat
+                            facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis
+                            est
+                            sit pariatur.</p>
+                    </div>
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-            <!--Grid row-->
-            <div class="row">
-                <!--Grid column-->
-                <div class="col-md-4 mb-5">
-                    <i class="fa fa-camera-retro fa-4x orange-text"></i>
-                    <h4 class="my-4 font-weight-bold">Ervaring</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-md-4 mb-1">
-                    <i class="fa fa-heart fa-4x orange-text"></i>
-                    <h4 class="my-4 font-weight-bold">Blijdschap</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
-                </div>
-                <!--Grid column-->
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-5">
+                        <i class="fa fa-camera-retro fa-4x orange-text"></i>
+                        <h4 class="my-4 font-weight-bold">Ervaring</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-heart fa-4x orange-text"></i>
+                        <h4 class="my-4 font-weight-bold">Blijdschap</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-md-4 mb-1">
-                    <i class="fa fa-bicycle fa-4x orange-text"></i>
-                    <h4 class="my-4 font-weight-bold">Avontuur</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-bicycle fa-4x orange-text"></i>
+                        <h4 class="my-4 font-weight-bold">Avontuur</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
+                <!--Grid row-->
+
         </section>
         <!--Section: Best Features-->
         <hr class="my-5">
@@ -239,7 +240,7 @@
                         </div>
                         <!--/.Slides-->
                         <!--Controls-->
-                        <a class="carousel-control-prev" href="carousel1" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Vorige</span>
                         </a>
@@ -286,7 +287,7 @@
 <!--Main layout-->
 
 <!-- Footer -->
-<footer class="page-footer font-small unique-color-dark">
+<footer class="page-footer font-small">
     <!-- Social buttons -->
     <div class="primary-color">
         <div class="container">
@@ -348,16 +349,16 @@
                 </h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="#!">Kwast</a>
+                    Kwast
                 </p>
                 <p>
-                    <a href="#!">Papier</a>
+                    Papier
                 </p>
                 <p>
-                    <a href="#!">Inkt</a>
+                    Inkt
                 </p>
                 <p>
-                    <a href="#!">Verf</a>
+                    Verf
                 </p>
             </div>
             <!--/.Second column-->
@@ -369,7 +370,7 @@
                 </h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <i class="fas fa-home"></i></i>Urk, Wijk 4-94</p>
+                    <i class="fa fa-home"></i>Urk, Wijk 4-94</p>
                 <p>
                     <i class="fa fa-envelope mr-3"></i>Janneke@utussien.nl</p>
                 <p>
