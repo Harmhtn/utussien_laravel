@@ -58,14 +58,8 @@
                     <div class="col-lg-4 col-md-12 mb-3">
 
                         <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Urk, 8321 ZG</p>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-3">
-
                         <p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Maandag - Vrijdag, 8:00-22:00</p>
+                        <p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>+ 01 234 567 89</p>
 
                     </div>
                     <!--Grid column-->
@@ -73,7 +67,11 @@
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-3">
 
-                        <p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>+ 01 234 567 89</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-3">
 
                     </div>
                     <!--Grid column-->
