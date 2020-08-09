@@ -6,8 +6,7 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="{{ url('/home') }}">
-        't Kunstige Ussien
+    <a class="navbar-brand" href="{{ url('/home') }}"><img src="favicon.ico" alt="logo_img">
     </a>
 
     <div class="collapse navbar-collapse" id="navbarToggler">
