@@ -31,3 +31,13 @@ Route::resource('contact', 'ContactController');
 
 // Booking page
 Route::resource('booking', 'BookingController');
+
+// email
+Route::get('/send-email',function(){
+    $details = [
+        'title' => 'Mail from t ussien',
+        'body'=> 'Dit is een test email'
+    ];
+    \Mail::to('testnapel1@gmail.com')->send(new \App\Mail\TestMail($details));
+    echo "Email has been sent";
+});

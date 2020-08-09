@@ -49,13 +49,13 @@
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-7 col-md-12">
+            <div class="col-lg-5 col-md-12">
 
                 <!--Grid row-->
                 <div class="row text-center">
 
                     <!--Grid column-->
-                    <div class="col-lg-4 col-md-12 mb-3">
+                    <div class="col-lg-7 col-md-12 mb-3">
 
                         <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Urk, 8321 ZG</p>
                         <p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Maandag - Vrijdag, 8:00-22:00</p>
