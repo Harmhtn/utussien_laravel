@@ -32,12 +32,23 @@ Route::resource('contact', 'ContactController');
 // Booking page
 Route::resource('booking', 'BookingController');
 
-// email
-Route::get('/send-email',function(){
-    $details = [
-        'title' => 'Mail from t ussien',
-        'body'=> 'Dit is een test email'
-    ];
-    \Mail::to('testnapel1@gmail.com')->send(new \App\Mail\TestMail($details));
-    echo "Email has been sent";
-});
+// Contact form
+// Render in view
+Route::get('/contact', [
+    'uses' => 'ContactUsFormController@createForm'
+]);
+
+// Post form data
+Route::post('/contact', [
+    'uses' => 'ContactUsFormController@ContactUsForm',
+    'as' => 'contact.store'
+]);
+//// email
+//Route::get('/send-email',function(){
+//    $details = [
+//        'title' => 'Mail from t ussien',
+//        'body'=> 'Dit is een test email'
+//    ];
+//    \Mail::to('testnapel1@gmail.com')->send(new \App\Mail\TestMail($details));
+//    echo "Email has been sent";
+//});
