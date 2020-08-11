@@ -185,7 +185,7 @@
                         aperiam minima
                         assumenda deleniti hic.</p>
                 </div>
-                <div class="workshop_button">
+                <div class="workshop_button ml-1">
                     <a class="btn btn-primary btn-md text-center" href="{{route('workshops.index')}}">Lees meer</a>
                 </div>
                 <!--Grid column-->
