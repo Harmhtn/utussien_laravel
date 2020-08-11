@@ -39,6 +39,7 @@ p {
     background-size: cover;
 }
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 900px) {
     #intro {
@@ -115,6 +116,20 @@ p {
     /*font-family: 'Parisienne', cursive;*/
     /*font-family: 'Pinyon Script', cursive;*/
     /*font-family: 'Tangerine', cursive;*/
+}
+
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 #nieuws {

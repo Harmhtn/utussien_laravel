@@ -37,7 +37,7 @@
 <!--Main Navigation-->
 <!--Main layout-->
 <main class="mt-5">
-    <div class="container">
+    <main class="container">
         <section id="beleefhuis" class="text-center">
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold">Beleefhuis</h2>
@@ -94,8 +94,9 @@
 
         </section>
         <!--Section:Beleefhuis-->
+        <hr class="my-5">
         <!--Section: Workshops-->
-        <section id="Workshops" class="text-center">
+        <section id="workshops" class="text-center">
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold">Workshops</h2>
             <!--Grid row-->
@@ -216,7 +217,7 @@
             <div class="row justify-content-center">
                 <!--Grid column-->
                 <div class="col-md-5 mb-5">
-                    <i><img src="images/europa_vlag.jpg"width="100px" height="50px"></i>
+                    <i><img src="images/europa_vlag.jpg" width="100px" height="50px"></i>
                     <h4 class="my-4 font-weight-bold">Europa</h4>
                     <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
                         maiores nam,
@@ -224,7 +225,7 @@
                         assumenda deleniti hic.</p>
                 </div>
                 <div class="col-md-5 mb-5">
-                    <i><img src="images/leader_flevoland_logo.jpg"width="100px" height="80px"></i>
+                    <i><img src="images/leader_flevoland_logo.jpg" width="100px" height="80px"></i>
                     <h4 class="my-4 font-weight-bold">Leader</h4>
                     <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
                         maiores nam,
@@ -234,7 +235,7 @@
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-md-5 mb-1">
-                    <i><img src="images/leader_flevoland.jpg"width="100px" height="100px"></i>
+                    <i><img src="images/leader_flevoland.jpg" width="100px" height="100px"></i>
                     <h4 class="my-4 font-weight-bold">Leader Flevoland</h4>
                     <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
                         maiores nam,
@@ -267,61 +268,21 @@
             <div class="row">
                 <!--Grid column-->
                 <div class="col-md-6 mb-4">
-                    <!--Carousel Wrapper-->
-                    <div id="carousel1" class="carousel slide carousel-fade carousel-fade"
-                         data-ride="carousel">
-                        <!--Indicators-->
-                        <ol class="carousel-indicators">
-                            <li data-target="carousel1" data-slide-to="0" class="active"></li>
-                            <li data-target="carousel1" data-slide-to="1"></li>
-                            <li data-target="carousel1" data-slide-to="2"></li>
-                        </ol>
-                        <!--/.Indicators-->
-                        <!--Slides-->
-                        <div class="carousel-inner z-depth-1-half" role="listbox">
-                            <!--First slide-->
-                            <div class="carousel-item active">
-                                <img class="d-block w-100"
-                                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
-                                     alt="First slide">
-                            </div>
-                            <!--/First slide-->
-                            <!--Second slide-->
-                            <div class="carousel-item">
-                                <img class="d-block w-100"
-                                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
-                                     alt="Second slide">
-                            </div>
-                            <!--/Second slide-->
-                            <!--Third slide-->
-                            <div class="carousel-item">
-                                <img class="d-block w-100"
-                                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-                                     alt="Third slide">
-                            </div>
-                            <!--/Third slide-->
+                    <div class="container m-0 p-0">
+                        <div id="map-container-google-4" class="z-depth-1-half map-container-4">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.842960385446!2d5.59237981632885!3d52.662814033387185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c884a211a87ddf%3A0x8f6c2506163c9dd6!2sWijk%204%2094%2C%208321%20GH%20Urk%2C%20Nederland!5e0!3m2!1snl!2sus!4v1597148702120!5m2!1snl!2sus"
+                                width="500" height="500" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
                         </div>
-                        <!--/.Slides-->
-                        <!--Controls-->
-                        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Vorige</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Volgende</span>
-                        </a>
-                        <!--/.Controls-->
                     </div>
-                    <!--/.Carousel Wrapper-->
-
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
                 <div class="col-md-6">
                     <!--Excerpt-->
-                    <h4 class="mb-3"><strong>Dit is de titel van een nieuwsbericht</strong></h4>
+                    <h4 class="mb-3"><strong>Zo kun je ons bereiken</strong></h4>
                     <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
                         quod maxime
                         placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
@@ -333,8 +294,6 @@
                         placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
                         officiis
                         debitis aut rerum.</p>
-                    <p>by <a><strong>Harm hendrik ten Napel</strong></a>, 26/08/2020</p>
-                    <a class="btn btn-primary btn-md">Lees meer</a>
                 </div>
                 <!--Grid column-->
             </div>
@@ -345,87 +304,23 @@
         <section id="nieuws">
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold text-center">Nieuws</h2>
-            <!--Grid row-->
-            <div class="row">
-                <!--Grid column-->
-                <div class="col-md-6 mb-4">
-                    <!--Carousel Wrapper-->
-                    <div id="carousel1" class="carousel slide carousel-fade carousel-fade"
-                         data-ride="carousel">
-                        <!--Indicators-->
-                        <ol class="carousel-indicators">
-                            <li data-target="carousel1" data-slide-to="0" class="active"></li>
-                            <li data-target="carousel1" data-slide-to="1"></li>
-                            <li data-target="carousel1" data-slide-to="2"></li>
-                        </ol>
-                        <!--/.Indicators-->
-                        <!--Slides-->
-                        <div class="carousel-inner z-depth-1-half" role="listbox">
-                            <!--First slide-->
-                            <div class="carousel-item active">
-                                <img class="d-block w-100"
-                                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
-                                     alt="First slide">
-                            </div>
-                            <!--/First slide-->
-                            <!--Second slide-->
-                            <div class="carousel-item">
-                                <img class="d-block w-100"
-                                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
-                                     alt="Second slide">
-                            </div>
-                            <!--/Second slide-->
-                            <!--Third slide-->
-                            <div class="carousel-item">
-                                <img class="d-block w-100"
-                                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-                                     alt="Third slide">
-                            </div>
-                            <!--/Third slide-->
-                        </div>
-                        <!--/.Slides-->
-                        <!--Controls-->
-                        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Vorige</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Volgende</span>
-                        </a>
-                        <!--/.Controls-->
-                    </div>
-                    <!--/.Carousel Wrapper-->
+            <div class="instagram_feed">
+                <!-- section nieuws-->
+                <!-- Place <div> tag where you want the feed to appear -->
+                <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+                <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+                <script type="text/javascript">
+                    /* curator-feed-default-feed-layout */
+                    (function(){
+                        var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+                        i.src = "https://cdn.curator.io/published/47c541c0-d2be-423d-b9c2-714a101f4112.js";
+                        e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+                    })();
+                </script>
 
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-6">
-                    <!--Excerpt-->
-                    <h4 class="mb-3"><strong>Dit is de titel van een nieuwsbericht</strong></h4>
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                        quod maxime
-                        placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
-                        officiis
-                        debitis aut rerum.</p>
-
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                        quod maxime
-                        placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
-                        officiis
-                        debitis aut rerum.</p>
-                    <p>by <a><strong>Harm hendrik ten Napel</strong></a>, 26/08/2020</p>
-                    <a class="btn btn-primary btn-md">Lees meer</a>
-                </div>
-                <!--Grid column-->
             </div>
-            <!--Grid row-->
         </section>
-        <!-- section nieuws-->
-        <hr class="my-5">
-    </div>
-</main>
+    </main>
 <!--Main layout-->
 
 <!-- Footer -->
@@ -474,22 +369,7 @@
 
             <!--Second column-->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase font-weight-bold">
-                    <strong>Producten</strong>
-                </h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>
-                    Kwast
-                </p>
-                <p>
-                    Papier
-                </p>
-                <p>
-                    Inkt
-                </p>
-                <p>
-                    Verf
-                </p>
+
             </div>
             <!--/.Second column-->
 
