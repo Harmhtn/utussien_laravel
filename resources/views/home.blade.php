@@ -265,24 +265,17 @@
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold text-center">Contact</h2>
             <!--Grid row-->
-            <div class="row">
+            <div class="row justify-content-center">
                 <!--Grid column-->
-                <div class="col-md-6 mb-4">
-                    <div class="container m-0 p-0">
-                        <div id="map-container-google-4" class="z-depth-1-half map-container-4">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.842960385446!2d5.59237981632885!3d52.662814033387185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c884a211a87ddf%3A0x8f6c2506163c9dd6!2sWijk%204%2094%2C%208321%20GH%20Urk%2C%20Nederland!5e0!3m2!1snl!2sus!4v1597148702120!5m2!1snl!2sus"
-                                width="500" height="500" frameborder="0" style="border:0;" allowfullscreen=""
-                                aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                    </div>
+                <div class="map-responsive col-md-6 m-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.842960385446!2d5.59237981632885!3d52.662814033387185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c884a211a87ddf%3A0x8f6c2506163c9dd6!2sWijk%204%2094%2C%208321%20GH%20Urk%2C%20Nederland!5e0!3m2!1snl!2sus!4v1597150619551!5m2!1snl!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-md-6">
+                <div class="col-md-6 m-4 text-center">
                     <!--Excerpt-->
-                    <h4 class="mb-3"><strong>Zo kun je ons bereiken</strong></h4>
+                    <h4 class="mb-3 "><strong>Zo kun je ons bereiken</strong></h4>
                     <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
                         quod maxime
                         placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
