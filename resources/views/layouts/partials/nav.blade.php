@@ -1,25 +1,47 @@
 <head>
     <link href="{{ asset('css/main.style.css') }}" rel="stylesheet">
 </head>
+<!-- styles -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link href="{{ asset('css/main.style.css') }}" rel="stylesheet">
+<link href="{{ asset('css/home.style.css') }}" rel="stylesheet">
+{{--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<nav class="navbar navbar-light navbar-expand-lg">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="{{ url('/home') }}"><img src="favicon.ico" alt="logo_img">
     </a>
 
-    <div class="collapse navbar-collapse" id="navbarToggler">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item">
-                <a class="nav-link" href="{{route('info.index')}}">Info</a>
+                <a class="nav-link" href="#beleefhuis">Beleefhuis</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route('booking.index')}}">Booking</a>
+                <a class="nav-link" href="#workshops">Workshops</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route('contact.index')}}">Contact</a>
+                <a class="nav-link" href="#subsidie">Subsidie</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#nieuws">Nieuws</a>
+            </li>
+            <!-- Voor latere toevoeging-->
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link" href="{{route('info.index')}}">Info</a>--}}
+{{--            </li>--}}
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link" href="{{route('booking.index')}}">Booking</a>--}}
+{{--            </li>--}}
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link" href="{{route('contact.index')}}">Contact</a>--}}
+{{--            </li>--}}
         </ul>
     </div>
 </nav>

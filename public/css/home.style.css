@@ -8,25 +8,142 @@ header {
     height: 100%;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+.mt-5 {
+
+}
+
+.social_buttons a{
+    color: inherit;
+
+}
+
+.social_buttons a:hover{
+    color: inherit;
+    text-decoration:none;
+    cursor:pointer;
+
+}
+
 #intro {
     height: 100%;
 }
 
 #intro {
-    background-image: url("../images/ussien_logo.jpg");
+    background: url("../images/ussien_logo.jpg")no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    max-height: 100%;
 }
 
-#gallery {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+    #intro {
+        background: url("../images/ussien_logo_mobile.jpg")no-repeat center center;
+
+
+    }
+}
+
+/*!*!* Medium devices (landscape tablets, 768px and up) *!*!*/
+/*@media only screen and (min-width: 768px) {*/
+/*    #intro {*/
+/*        background: url("../images/ussien_logo_medium.jpg")no-repeat center center;*/
+/*    }*/
+/*}*/
+
+/*!* large devices (landscape tablets, 768px and up) *!*/
+@media only screen and (min-width: 1200px) {
+    #intro {
+        background: url("../images/ussien_logo.jpg")no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+#beleefhuis {
 
 }
 
-.footer-copyright{
+#beleefhuis h1, h2, h4 {
+    /*font-family: 'Calligraffitti', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Marck Script', cursive;
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Pinyon Script', cursive;*/
+    /*font-family: 'Tangerine', cursive;*/
+}
+
+#workshops {
+
+}
+
+#workshops h1, h2, h4 {
+    /*font-family: 'Calligraffitti', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Marck Script', cursive;
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Pinyon Script', cursive;*/
+    /*font-family: 'Tangerine', cursive;*/
+}
+#subsidie {
+
+}
+
+#subsidie h1, h2, h4 {
+    /*font-family: 'Calligraffitti', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Marck Script', cursive;
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Pinyon Script', cursive;*/
+    /*font-family: 'Tangerine', cursive;*/
+}
+
+#contact {
+
+}
+
+#contact h1, h2, h4 {
+    /*font-family: 'Calligraffitti', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Marck Script', cursive;
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Pinyon Script', cursive;*/
+    /*font-family: 'Tangerine', cursive;*/
+}
+
+#nieuws {
+
+}
+
+#nieuws h1, h2, h4{
+    /*font-family: 'Calligraffitti', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Marck Script', cursive;
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Pinyon Script', cursive;*/
+    /*font-family: 'Tangerine', cursive;*/
+}
+
+.footer-copyright .a{
     background-color: #e35c56;
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-copyright h1, h2 , h4 {
+    /*font-family: 'Calligraffitti', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Marck Script', cursive;
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Pinyon Script', cursive;*/
+    /*font-family: 'Tangerine', cursive;*/
 }
 
 .page-footer, .py-4 {
@@ -38,40 +155,41 @@ header {
 /*////////////////////////*/
 /*media queries*/
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    #intro {
-        max-height: 40%;
-    }
+/*@media only screen and (max-width: 600px) {*/
+/*    #intro {*/
+/*        max-height: 40%;*/
+/*        margin-bottom: 2px;*/
+/*    }*/
 
-}
+/*}*/
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    #intro {
-        max-height: 60%;
-    }
-}
+/*!* Small devices (portrait tablets and large phones, 600px and up) *!*/
+/*@media only screen and (min-width: 600px) {*/
+/*    #intro {*/
+/*        max-height: 60%;*/
+/*    }*/
+/*}*/
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    #intro {
-        max-height: 80%;
-    }
-}
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (min-width: 768px) {*/
+/*    #intro {*/
+/*        max-height: 80%;*/
+/*    }*/
+/*}*/
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    #intro {
-        max-height: 100%;
-    }
-}
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) {*/
+/*    #intro {*/
+/*        max-height: 100%;*/
+/*    }*/
+/*}*/
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    #intro {
-        max-height: 100%;
-    }
-}
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+/*@media only screen and (min-width: 1200px) {*/
+/*    #intro {*/
+/*        max-height: 100%;*/
+/*    }*/
+/*}*/
 
 
 /*.section1 {*/

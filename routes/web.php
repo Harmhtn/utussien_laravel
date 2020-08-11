@@ -20,6 +20,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Workshops page
+Route::resource('workshops', 'WorkshopController');
+
 // admin page
 Route::resource('admin', 'AdminController');
 
@@ -34,12 +38,12 @@ Route::resource('booking', 'BookingController');
 
 // Contact form
 // Render in view
-Route::get('/contact', [
+Route::get('/contactinfo', [
     'uses' => 'ContactUsFormController@createForm'
 ]);
 
 // Post form data
-Route::post('/contact', [
+Route::post('/contactinfo', [
     'uses' => 'ContactUsFormController@ContactUsForm',
     'as' => 'contact.store'
 ]);
