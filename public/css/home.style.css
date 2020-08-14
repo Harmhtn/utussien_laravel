@@ -11,8 +11,9 @@ header {
 p {
     font-family: 'Roboto', sans-serif;
 }
-.mt-5 {
 
+section {
+    /*background-color: #dedede;*/
 }
 
 .social_buttons a{
@@ -118,6 +119,13 @@ p {
     /*font-family: 'Tangerine', cursive;*/
 }
 
+.divide_line {
+    background-image: url("/images/rode_stof_cropped.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    height: 50px;
+}
+
 .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -146,7 +154,7 @@ p {
 }
 
 .footer-copyright .a{
-    background-color: #e35c56;
+    background-color: #ec1747;
     text-decoration: none;
     color: black;
 
@@ -162,7 +170,7 @@ p {
 }
 
 .page-footer, .py-4 {
-    background-color: #e35c56;
+    background-color: #EC1747;
 
 }
 

@@ -28,7 +28,7 @@
     <main class="container">
         <section id="beleefhuis" class="text-center">
             <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold">Beleefhuis</h2>
+            <h2 class="m-5 font-weight-bold">Beleefhuis</h2>
             <!--Grid row-->
             <div class="row d-flex justify-content-center mb-4">
                 <!--Grid column-->
@@ -78,11 +78,13 @@
 
         </section>
         <!--Section:Beleefhuis-->
-        <hr class="my-5">
+        <div class="divide_line">
+            <hr class="my-5">
+        </div>
         <!--Section: Workshops-->
         <section id="workshops" class="text-center">
             <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold">Workshops</h2>
+            <h2 class="m-5 font-weight-bold">Workshops</h2>
             <p>In “Ut Kunstige Vissers Ussien” is meer te doen dan alleen maar te kijken!
                 Janneke van Slooten, van “Kunst in Opdracht’’ biedt verschillende workshops aan.
                 De workshops zijn voor jong, oud, en groepen.
@@ -190,22 +192,24 @@
                     <p class="grey-text"></p>
                 </div>
                 <!--Grid column-->
-                <div class="workshop_button ml-1">
-                    <p><strong>Prijzen zijn vanaf 7,50 pp
-                            Minimaal 5 personen of vanaf 37,50</strong>
-                    </p>
-                    <a class="btn btn-primary btn-md text-center" href="{{route('workshops.index')}}">Lees meer</a>
-                </div>
                 <!--Grid column-->
+            </div>
+            <div class="workshop_button ml-1">
+                <p><strong>Prijzen zijn vanaf 7,50 pp
+                        Minimaal 5 personen of vanaf 37,50</strong>
+                </p>
+                <a class="btn btn-primary btn-md text-center" href="{{route('workshops.index')}}">Lees meer</a>
             </div>
             <!--Grid row-->
         </section>
         <!--Section: Workshops-->
-        <hr class="my-5">
+        <div class="divide_line">
+            <hr class="my-5">
+        </div>
         <!--Section: Subsidie-->
         <section id="subsidie" class="text-center">
             <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold">Subsidie</h2>
+            <h2 class="m-5 font-weight-bold">Subsidie</h2>
             <!--Grid row-->
             <div class="row d-flex justify-content-center mb-4">
                 <!--Grid column-->
@@ -253,11 +257,13 @@
 
         </section>
         <!--Section:Subsidie-->
-        <hr class="my-5">
+        <div class="divide_line">
+            <hr class="my-5">
+        </div>
         <!--Section: Contact-->
         <section id="contact">
             <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold text-center">Contact</h2>
+            <h2 class="m-5 font-weight-bold text-center">Contact</h2>
             <!--Grid row-->
             <div class="row justify-content-center">
                 <!--Grid column-->
@@ -275,7 +281,6 @@
                             <h6 class="text-uppercase font-weight-bold">
                                 <strong>'t Kunstige Ussien</strong>
                             </h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>Wij horen graag van u dus twijfel niet en neem contact me ons op</p>
                         </div>
                         <!--/.First column-->
@@ -291,7 +296,6 @@
                             <h6 class="text-uppercase font-weight-bold">
                                 <strong>Contact</strong>
                             </h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
                                 <i class="fa fa-home mr-3"></i>Urk, Wijk 4-91</p>
                             <p>
@@ -309,10 +313,12 @@
             <!--Grid row-->
         </section>
         <!--Section: contact-->
-        <hr class="my-5">
+        <div class="divide_line">
+            <hr class="my-5">
+        </div>
         <section id="nieuws">
             <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold text-center">Nieuws</h2>
+            <h2 class="m-5 font-weight-bold text-center">Nieuws</h2>
             <div class="instagram_feed">
                 <!-- section nieuws-->
                 <!-- Place <div> tag where you want the feed to appear -->
@@ -372,3 +378,4 @@
 
 </footer>
 <!-- Footer -->
+</main>
