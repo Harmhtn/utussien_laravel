@@ -4,18 +4,6 @@
 <!--Main Navigation-->
 <header>
     @yield('head')
-    {{--    scripts--}}
-
-    <script>
-
-        // Load this when the DOM is ready
-        $(function () {
-            // You used .myCarousel here.
-            // That's the class selector not the id selector,
-            // which is #myCarousel
-            $('carousel1').carousel();
-        });
-    </script>
     <!--Mask-->
     <div id="intro" class="view">
         <div class="mask rgba-black-strong">
@@ -46,12 +34,13 @@
                 <!--Grid column-->
                 <div class="col-md-8">
                     <!-- Description -->
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate
-                        hic
-                        provident nulla repellat
-                        facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis
-                        est
-                        sit pariatur.</p>
+                    <p>Zo gauw je het huisje (Ut Ussien) binnenkomt,
+                        is het of je een stap terug in de tijd maakt.
+                        Oude netten die op zolder hangen te drogen,
+                        Koffie die staat te pruttelen op een petroleumstelletje,
+                        De klederdracht, de bedstee en een stukje van de schuilkelder.
+                        In dit huisje ervaar je hoe het was in de periode tussen 1940 en 1950.
+                    </p>
                 </div>
                 <!--Grid column-->
             </div>
@@ -60,33 +49,28 @@
             <div class="row">
                 <!--Grid column-->
                 <div class="col-md-4 mb-5">
-                    <i class="fa fa-camera-retro fa-4x orange-text"></i>
                     <h4 class="my-4 font-weight-bold">Ervaring</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <p>Kunt u, kun jij ontdekken waar de schuilkelder heeft gezeten?
+                        Misschien ontdek je nog wel meer verstopplekken.
+                    </p>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-md-4 mb-1">
-                    <i class="fa fa-heart fa-4x orange-text"></i>
-                    <h4 class="my-4 font-weight-bold">Blijdschap</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Gratis toegang</h4>
+                    <p>Kom gezellig langs, en doe een stap terug in de tijd!</p>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
                 <div class="col-md-4 mb-1">
-                    <i class="fa fa-bicycle fa-4x orange-text"></i>
-                    <h4 class="my-4 font-weight-bold">Avontuur</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Rondleiding</h4>
+                    <ul>
+                        <li>Tot 2 jaar oud gratis</li>
+                        <li>2,50 tot 12 jaar,</li>
+                        <li>4,00 vanaf 12 jaar</li>
+                        <li>Onder de 5 personen hebben we een vast tarief van 15,00</li>
+                    </ul>
                 </div>
                 <!--Grid column-->
             </div>
@@ -99,45 +83,42 @@
         <section id="workshops" class="text-center">
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold">Workshops</h2>
+            <p>In “Ut Kunstige Vissers Ussien” is meer te doen dan alleen maar te kijken!
+                Janneke van Slooten, van “Kunst in Opdracht’’ biedt verschillende workshops aan.
+                De workshops zijn voor jong, oud, en groepen.
+                In overleg is heel veel mogelijk, vraag geheel vrijblijvend voor meer informatie.
+                U kunt o.a. kiezen uit verschillende workshops
+            </p>
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-12 mb-4">
                     <div class="view overlay z-depth-1-half">
-                        <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" class="img-fluid" alt="">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" class="img-fluid" alt="">--}}
                         <div class="mask rgba-white-slight"></div>
                     </div>
-                    <h4 class="my-4 font-weight-bold">Titel</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Handlettering 2.0</h4>
+                    <p class="grey-text"></p>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="view overlay z-depth-1-half">
-                        <img src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" class="img-fluid" alt="">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" class="img-fluid" alt="">--}}
                         <div class="mask rgba-white-slight"></div>
                     </div>
-                    <h4 class="my-4 font-weight-bold">Titel</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Schilderen</h4>
+                    <p class="grey-text"></p>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="view overlay z-depth-1-half">
-                        <img src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" class="img-fluid" alt="">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" class="img-fluid" alt="">--}}
                         <div class="mask rgba-white-slight"></div>
                     </div>
-                    <h4 class="my-4 font-weight-bold">Titel</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Pegdolls/houten poppetjes beschilderen</h4>
+                    <p class="grey-text"></p>
                 </div>
                 <!--Grid column-->
             </div>
@@ -147,45 +128,72 @@
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-12 mb-4">
                     <div class="view overlay z-depth-1-half">
-                        <img src="https://mdbootstrap.com/img/Photos/Others/images/10.jpg" class="img-fluid" alt="">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/10.jpg" class="img-fluid" alt="">--}}
                         <div class="mask rgba-white-slight"></div>
                     </div>
 
-                    <h4 class="my-4 font-weight-bold">Titel</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Biblejournaling</h4>
+                    <p class="grey-text"></p>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="view overlay z-depth-1-half">
-                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">--}}
                         <div class="mask rgba-white-slight"></div>
                     </div>
 
-                    <h4 class="my-4 font-weight-bold">Titel</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Tekenen</h4>
+                    <p class="grey-text">Hier zijn ook lessen in te volgen.</p>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="view overlay z-depth-1-half">
-                        <img src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg" class="img-fluid" alt="">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg" class="img-fluid" alt="">--}}
                         <div class="mask rgba-white-slight"></div>
                     </div>
 
-                    <h4 class="my-4 font-weight-bold">Titel</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Sleutelhanger knopen</h4>
+                    <p class="grey-text"></p>
                 </div>
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="view overlay z-depth-1-half">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">--}}
+                        <div class="mask rgba-white-slight"></div>
+                    </div>
+
+                    <h4 class="my-4 font-weight-bold">Gewoen een vissien eeten</h4>
+                    <p class="grey-text">Zelf je vis schoonmaken, bakken en natuurlijk opeten</p>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="view overlay z-depth-1-half">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">--}}
+                        <div class="mask rgba-white-slight"></div>
+                    </div>
+
+                    <h4 class="my-4 font-weight-bold">Netten breien/boeten </h4>
+                    <p class="grey-text">Hier zijn ook lessen in te volgen</p>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="view overlay z-depth-1-half">
+{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">--}}
+                        <div class="mask rgba-white-slight"></div>
+                    </div>
+
+                    <h4 class="my-4 font-weight-bold">Een klomp met een zeiltje</h4>
+                    <p class="grey-text"></p>
+                </div>
+                <!--Grid column-->
                 <div class="workshop_button ml-1">
+                    <p><strong>Prijzen zijn vanaf 7,50 pp
+                            Minimaal 5 personen of vanaf 37,50</strong>
+                    </p>
                     <a class="btn btn-primary btn-md text-center" href="{{route('workshops.index')}}">Lees meer</a>
                 </div>
                 <!--Grid column-->
@@ -203,12 +211,8 @@
                 <!--Grid column-->
                 <div class="col-md-8">
                     <!-- Description -->
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate
-                        hic
-                        provident nulla repellat
-                        facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis
-                        est
-                        sit pariatur.</p>
+                    <p class="grey-text">‘’Ut Kunstige Vissers Ussien’’ is eigendom van Roel en Janneke van Slooten.
+                        Het realiseren van het project is mede mogelijk gemaakt door steun vanuit </p>
                 </div>
                 <!--Grid column-->
             </div>
@@ -219,28 +223,21 @@
                 <div class="col-md-5 mb-5">
                     <i><img src="images/europa_vlag.jpg" width="100px" height="50px"></i>
                     <h4 class="my-4 font-weight-bold">Europa</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <p class="grey-text">E.L.F.P.O. Europees landbouwfonds voor plattelandsontwikkeling.</p>
                 </div>
                 <div class="col-md-5 mb-5">
                     <i><img src="images/leader_flevoland_logo.jpg" width="100px" height="80px"></i>
                     <h4 class="my-4 font-weight-bold">Leader</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <p class="grey-text">LEADER is onderdeel van het Europese subsidieprogramma voor plattelandsontwikkeling en draagt bij aan de ontwikkeling van plattelandsgebieden en stimuleert de plattelandseconomie. LEADER begon in 1990 en heeft inmiddels twee programmaperioden achter de rug.
+                        </p>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-md-5 mb-1">
                     <i><img src="images/leader_flevoland.jpg" width="100px" height="100px"></i>
                     <h4 class="my-4 font-weight-bold">Leader Flevoland</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <p class="grey-text">LEADER Flevoland is een subsidieprogramma dat nieuwe projecten op het platteland van Flevoland helpt realiseren.
+                        De doelstelling is het platteland duurzaam te ontwikkelen door bottom-up initiatieven te stimuleren die zich richten op economische, ecologische en sociale innovatie.</p>
                 </div>
                 <!--Grid column-->
 
@@ -248,10 +245,7 @@
                 <div class="col-md-5 mb-1">
                     <i><img src="images/gemeente_urk_vlag.jpg" width="100px" height="80px"></i>
                     <h4 class="my-4 font-weight-bold">Gemeente Urk</h4>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <p class="grey-text"></p>
                 </div>
                 <!--Grid column-->
             </div>
@@ -273,20 +267,42 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-md-6 m-4 text-center">
-                    <!--Excerpt-->
-                    <h4 class="mb-3 "><strong>Zo kun je ons bereiken</strong></h4>
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                        quod maxime
-                        placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
-                        officiis
-                        debitis aut rerum.</p>
+                <div class="container mt-5 mb-4 text-center text-md-left">
+                    <div class="row mt-3">
 
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                        quod maxime
-                        placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
-                        officiis
-                        debitis aut rerum.</p>
+                        <!--First column-->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <strong>'t Kunstige Ussien</strong>
+                            </h6>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>Wij horen graag van u dus twijfel niet en neem contact me ons op</p>
+                        </div>
+                        <!--/.First column-->
+
+                        <!--Second column-->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        </div>
+                        <!--/.Second column-->
+
+                        <!--Fourth column-->
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <strong>Contact</strong>
+                            </h6>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>
+                                <i class="fa fa-home mr-3"></i>Urk, Wijk 4-91</p>
+                            <p>
+                                <i class="fa fa-envelope mr-3"></i>Janneke@utussien.nl</p>
+                            <p>
+                                <i class="fa fa-phone mr-3"></i> + 31 6 227 027 84</p>
+
+                        </div>
+                        <!--/.Fourth column-->
+
+                    </div>
                 </div>
                 <!--Grid column-->
             </div>
@@ -347,44 +363,6 @@
     <!-- Social buttons -->
 
     <!--Footer Links-->
-    <div class="container mt-5 mb-4 text-center text-md-left">
-        <div class="row mt-3">
-
-            <!--First column-->
-            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-                <h6 class="text-uppercase font-weight-bold">
-                    <strong>'t Kunstige Ussien</strong>
-                </h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>Wij horen graag van u dus twijfel niet en neem contact me ons op</p>
-            </div>
-            <!--/.First column-->
-
-            <!--Second column-->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-            </div>
-            <!--/.Second column-->
-
-            <!--Fourth column-->
-            <div class="col-md-4 col-lg-3 col-xl-3">
-                <h6 class="text-uppercase font-weight-bold">
-                    <strong>Contact</strong>
-                </h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>
-                    <i class="fa fa-home mr-3"></i>Urk, Wijk 4-94</p>
-                <p>
-                    <i class="fa fa-envelope mr-3"></i>Janneke@utussien.nl</p>
-                <p>
-                    <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-                <p>
-                    <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
-            </div>
-            <!--/.Fourth column-->
-
-        </div>
-    </div>
     <!--/.Footer Links-->
 
     <!-- Copyright -->
@@ -394,11 +372,3 @@
 
 </footer>
 <!-- Footer -->
-<script>
-
-    // Carousel options
-
-    $('#carousel1').carousel({
-        interval: 3000,
-    });
-</script>
