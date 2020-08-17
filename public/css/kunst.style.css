@@ -51,6 +51,11 @@ h1 {
     margin-bottom: 10px;
 }
 
+.janneke_foto, img {
+    width: 70%;
+    height: auto;
+}
+
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;

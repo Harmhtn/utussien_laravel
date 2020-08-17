@@ -36,9 +36,16 @@
     <section id="info" class="text-center">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h1>Info</h1>
-                <div>
-                    <p> Allemaal kunstzinnege dingen</p>
+                <h1>Over mij</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div>
+                            <img src="images/janneke_foto.jpg" alt="janneke_foto" class="janneke_foto">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p> Ik ben Janneke van Slooten</p>
+                    </div>
                 </div>
             </div>
         </div>
