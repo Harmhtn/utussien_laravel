@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+html,
+body,
+header {
+    height: 100%;
+}
+
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.divide_line {
+    background-image: url("/images/rode_stof_cropped.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    height: 50px;
+}
+
+.footer-copyright .a{
+    background-color: #ec1747;
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-copyright h1, h2 , h4 {
+    /*font-family: 'Calligraffitti', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Marck Script', cursive;
+    /*font-family: 'Parisienne', cursive;*/
+    /*font-family: 'Pinyon Script', cursive;*/
+    /*font-family: 'Tangerine', cursive;*/
+}
+
+/*.page-footer, .py-4 {*/
+/*    background-color: #EC1747;*/
+
+/*}*/

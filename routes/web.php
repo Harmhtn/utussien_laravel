@@ -36,6 +36,9 @@ Route::resource('contact', 'ContactController');
 // Booking page
 Route::resource('booking', 'BookingController');
 
+// Kunst page
+Route::resource('kunst', 'KunstController');
+
 // Contact form
 // Render in view
 Route::get('/contactinfo', [

@@ -1,6 +1,6 @@
 .navbar {
-    text-align: center;
     background-color: #ec1747;
+    text-align: center;
 }
 .navbar .navbar-brand {
     color: #000000;
@@ -9,11 +9,13 @@
 .navbar .navbar-brand:focus {
     color: #ffffff;
 }
+
 .navbar .navbar-text {
     color: #000000;
 }
 .navbar .navbar-text a {
     color: #ffffff;
+    text-align: center;
 }
 .navbar .navbar-text a:hover,
 .navbar .navbar-text a:focus {
@@ -23,6 +25,7 @@
     color: #000000;
     border-radius: .25rem;
     margin: 0 0.25em;
+    text-align: center;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {

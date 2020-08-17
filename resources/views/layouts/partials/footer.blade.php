@@ -1,4 +1,11 @@
-<div class="container text-center" id="copyright text-right">
-    <p class="font-italic">© Copyright 2020 Harm Hendrik ten Napel</p>
-</div>
+<footer class="page-footer font-small">
+    <!-- Social buttons -->
+    <div class="primary-color">
+        <div class="container">
+            <div class="footer-copyright text-center py-3">
+                © 2020 Copyright: Harm Hendrik ten Napel
+            </div>
+            <!-- Copyright -->
+        </div>
+</footer>
 

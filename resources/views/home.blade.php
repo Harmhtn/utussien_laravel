@@ -3,8 +3,8 @@
 
 <!--Main Navigation-->
 <header>
-    @yield('head')
-    <!--Mask-->
+@yield('head')
+<!--Mask-->
     <div id="intro" class="view">
         <div class="mask rgba-black-strong">
             <div class="container-fluid d-flex align-items-center justify-content-center h-100">
@@ -95,32 +95,44 @@
             <div class="row">
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
                     <h4 class="my-4 font-weight-bold">Handlettering 2.0</h4>
-                    <p class="grey-text"></p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseHandlet" aria-expanded="false" aria-controls="collapseHandlet">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseHandlet">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
+
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
                     <h4 class="my-4 font-weight-bold">Schilderen</h4>
-                    <p class="grey-text"></p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseSchilderen" aria-expanded="false" aria-controls="collapseSchilderen">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseSchilderen">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
+
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
                     <h4 class="my-4 font-weight-bold">Pegdolls/houten poppetjes beschilderen</h4>
-                    <p class="grey-text"></p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapsePegdolls" aria-expanded="false" aria-controls="collapsePegdolls">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapsePegdolls">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
+
                 </div>
                 <!--Grid column-->
             </div>
@@ -129,67 +141,80 @@
             <div class="row">
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/10.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
-
                     <h4 class="my-4 font-weight-bold">Biblejournaling</h4>
-                    <p class="grey-text"></p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseBible" aria-expanded="false" aria-controls="collapseBible">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseBible">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
-
                     <h4 class="my-4 font-weight-bold">Tekenen</h4>
-                    <p class="grey-text">Hier zijn ook lessen in te volgen.</p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseTekenen" aria-expanded="false" aria-controls="collapseTekenen">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseTekenen">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
-
                     <h4 class="my-4 font-weight-bold">Sleutelhanger knopen</h4>
-                    <p class="grey-text"></p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseSleutel" aria-expanded="false" aria-controls="collapseSleutel">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseSleutel">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
+
                 </div>
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
-
                     <h4 class="my-4 font-weight-bold">Gewoen een vissien eeten</h4>
-                    <p class="grey-text">Zelf je vis schoonmaken, bakken en natuurlijk opeten</p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseVissien" aria-expanded="false" aria-controls="collapseVissien">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseVissien">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
-
                     <h4 class="my-4 font-weight-bold">Netten breien/boeten </h4>
-                    <p class="grey-text">Hier zijn ook lessen in te volgen</p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseBoeten" aria-expanded="false" aria-controls="collapseBoeten">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseBoeten">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="view overlay z-depth-1-half">
-{{--                        <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">--}}
-                        <div class="mask rgba-white-slight"></div>
-                    </div>
-
                     <h4 class="my-4 font-weight-bold">Een klomp met een zeiltje</h4>
-                    <p class="grey-text"></p>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseKlomp" aria-expanded="false" aria-controls="collapseKlomp">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseKlomp">
+                        <div class="card card-body">
+                            Dit is meer info over bible journaling
+                        </div>
+                    </div>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
@@ -198,7 +223,7 @@
                 <p><strong>Prijzen zijn vanaf 7,50 pp
                         Minimaal 5 personen of vanaf 37,50</strong>
                 </p>
-                <a class="btn btn-primary btn-md text-center" href="{{route('workshops.index')}}">Lees meer</a>
+{{--                <a class="btn btn-primary btn-md text-center" href="{{route('workshops.index')}}">Lees meer</a>--}}
             </div>
             <!--Grid row-->
         </section>
@@ -232,16 +257,21 @@
                 <div class="col-md-5 mb-5">
                     <i><img src="images/leader_flevoland_logo.jpg" width="100px" height="80px"></i>
                     <h4 class="my-4 font-weight-bold">Leader</h4>
-                    <p class="grey-text">LEADER is onderdeel van het Europese subsidieprogramma voor plattelandsontwikkeling en draagt bij aan de ontwikkeling van plattelandsgebieden en stimuleert de plattelandseconomie. LEADER begon in 1990 en heeft inmiddels twee programmaperioden achter de rug.
-                        </p>
+                    <p class="grey-text">LEADER is onderdeel van het Europese subsidieprogramma voor
+                        plattelandsontwikkeling en draagt bij aan de ontwikkeling van plattelandsgebieden en stimuleert
+                        de plattelandseconomie. LEADER begon in 1990 en heeft inmiddels twee programmaperioden achter de
+                        rug.
+                    </p>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-md-5 mb-1">
                     <i><img src="images/leader_flevoland.jpg" width="100px" height="100px"></i>
                     <h4 class="my-4 font-weight-bold">Leader Flevoland</h4>
-                    <p class="grey-text">LEADER Flevoland is een subsidieprogramma dat nieuwe projecten op het platteland van Flevoland helpt realiseren.
-                        De doelstelling is het platteland duurzaam te ontwikkelen door bottom-up initiatieven te stimuleren die zich richten op economische, ecologische en sociale innovatie.</p>
+                    <p class="grey-text">LEADER Flevoland is een subsidieprogramma dat nieuwe projecten op het
+                        platteland van Flevoland helpt realiseren.
+                        De doelstelling is het platteland duurzaam te ontwikkelen door bottom-up initiatieven te
+                        stimuleren die zich richten op economische, ecologische en sociale innovatie.</p>
                 </div>
                 <!--Grid column-->
 
@@ -268,7 +298,10 @@
             <div class="row justify-content-center">
                 <!--Grid column-->
                 <div class="map-responsive col-md-6 m-4">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.842960385446!2d5.59237981632885!3d52.662814033387185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c884a211a87ddf%3A0x8f6c2506163c9dd6!2sWijk%204%2094%2C%208321%20GH%20Urk%2C%20Nederland!5e0!3m2!1snl!2sus!4v1597150619551!5m2!1snl!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.842960385446!2d5.59237981632885!3d52.662814033387185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c884a211a87ddf%3A0x8f6c2506163c9dd6!2sWijk%204%2094%2C%208321%20GH%20Urk%2C%20Nederland!5e0!3m2!1snl!2sus!4v1597150619551!5m2!1snl!2sus"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <!--Grid column-->
 
@@ -299,7 +332,7 @@
                             <p>
                                 <i class="fa fa-home mr-3"></i>Urk, Wijk 4-91</p>
                             <p>
-                                <i class="fa fa-envelope mr-3"></i>Janneke@utussien.nl</p>
+                                <i class="fa fa-envelope mr-3"></i>Janneke@ussien.nl</p>
                             <p>
                                 <i class="fa fa-phone mr-3"></i> + 31 6 227 027 84</p>
 
@@ -322,60 +355,64 @@
             <div class="instagram_feed">
                 <!-- section nieuws-->
                 <!-- Place <div> tag where you want the feed to appear -->
-                <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+                <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank"
+                                                              class="crt-logo crt-tag">Powered by Curator.io</a></div>
                 <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
                 <script type="text/javascript">
                     /* curator-feed-default-feed-layout */
-                    (function(){
-                        var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+                    (function () {
+                        var i, e, d = document, s = "script";
+                        i = d.createElement("script");
+                        i.async = 1;
                         i.src = "https://cdn.curator.io/published/47c541c0-d2be-423d-b9c2-714a101f4112.js";
-                        e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+                        e = d.getElementsByTagName(s)[0];
+                        e.parentNode.insertBefore(i, e);
                     })();
                 </script>
 
             </div>
         </section>
     </main>
-<!--Main layout-->
+    <!--Main layout-->
 
-<!-- Footer -->
-<footer class="page-footer font-small">
-    <!-- Social buttons -->
-    <div class="primary-color">
-        <div class="container">
-            <!--Grid row-->
-            <div class="social_links row py-4 d-flex align-items-center">
-                <!--Grid column-->
-                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                    <h6 class="mb-0 white-text">Blijf op de hoogte door ons te volgen op social media!</h6>
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+        <!-- Social buttons -->
+        <div class="primary-color">
+            <div class="container">
+                <!--Grid row-->
+                <div class="social_links row py-4 d-flex align-items-center">
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text">Blijf op de hoogte door ons te volgen op social media!</h6>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="social_buttons col-md-6 col-lg-7 text-center text-md-right">
+                        <!--Facebook-->
+                        <a class="fb-ic" href="https://www.facebook.com/utussien">
+                            <i class="fa fa-facebook white-text m-4"></i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="social_buttons ins-ic" href="https://www.instagram.com/utussien/">
+                            <i class="fa fa-instagram white-text m-lg-4"></i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="social_buttons col-md-6 col-lg-7 text-center text-md-right">
-                    <!--Facebook-->
-                    <a class="fb-ic" href="https://www.facebook.com/utussien">
-                        <i class="fa fa-facebook white-text m-4"></i>
-                    </a>
-                    <!--Instagram-->
-                    <a class="social_buttons ins-ic" href="https://www.instagram.com/utussien/">
-                        <i class="fa fa-instagram white-text m-lg-4"></i>
-                    </a>
-                </div>
-                <!--Grid column-->
+                <!--Grid row-->
             </div>
-            <!--Grid row-->
         </div>
-    </div>
-    <!-- Social buttons -->
+        <!-- Social buttons -->
 
-    <!--Footer Links-->
-    <!--/.Footer Links-->
+        <!--Footer Links-->
+        <!--/.Footer Links-->
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright: Harm Hendrik ten Napel
-    </div>
-    <!-- Copyright -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: Harm Hendrik ten Napel
+        </div>
+        <!-- Copyright -->
 
-</footer>
-<!-- Footer -->
+    </footer>
+    <!-- Footer -->
 </main>
