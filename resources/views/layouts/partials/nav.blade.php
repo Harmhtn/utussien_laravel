@@ -5,10 +5,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="{{ asset('css/main.style.css') }}" rel="stylesheet">
 <link href="{{ asset('css/home.style.css') }}" rel="stylesheet">
-{{--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -94,9 +93,4 @@
 {{--</nav>--}}
 
 {{--Go back button script--}}
-<script>
-    function goBack() {
-        window.history.back();
-    }
-</script>
 @yield('script')

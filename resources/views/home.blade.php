@@ -33,6 +33,7 @@
             <div class="row d-flex justify-content-center mb-4">
                 <!--Grid column-->
                 <div class="col-md-8">
+                    <img src="images/sfeerfoto1.jpg" id="sfeerfoto">
                     <!-- Description -->
                     <p>Zo gauw je het huisje (Ut Ussien) binnenkomt,
                         is het of je een stap terug in de tijd maakt.
@@ -67,9 +68,9 @@
                     <h4 class="my-4 font-weight-bold">Rondleiding</h4>
                     <ul>
                         <li>Tot 2 jaar oud gratis</li>
-                        <li>2,50 tot 12 jaar,</li>
-                        <li>4,00 vanaf 12 jaar</li>
-                        <li>Onder de 5 personen hebben we een vast tarief van 15,00</li>
+                        <li>&#x20AC;2,50 p.p. tot 12 jaar,</li>
+                        <li>&#x20AC;4,00 p.p. vanaf 12 jaar</li>
+                        <li>Onder de 5 personen hebben we een vast tarief van &#x20AC;16,00</li>
                     </ul>
                 </div>
                 <!--Grid column-->
@@ -94,136 +95,125 @@
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <h4 class="my-4 font-weight-bold">Handlettering 2.0</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseHandlet" aria-expanded="false" aria-controls="collapseHandlet">
+                <div class="col col-md-6 mb-4">
+                    <h4 class="my-4 font-weight-bold">Urker workshops</h4>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
+                            data-target="#collapseUrker" aria-expanded="false" aria-controls="collapseUrker">
                         Meer info
                     </button>
-                    <div class="collapse" id="collapseHandlet">
+                    <div class="collapse" id="collapseUrker">
                         <div class="card card-body">
-                            Dit is meer info over bible journaling
+                            <ul>
+                                <li>Sleutelhangers beschilderen of knopen</li>
+                                <li>Schilderen(van Urker tafereeltjes)</li>
+                                <li>Tegeltjes beschilderen of stippen</li>
+                                <li>Gewoen een vissien eeten(zelf je vis schoonmaken, bakken en natuurlijk opeten)
+                                </li>
+                                <li>Netten breien/boeten(hier zijn ook lessen in te volgen)</li>
+                                <li>Een klomp met een zeiltje(erg populair bij de kinderen)</li>
+                            </ul>
                         </div>
                     </div>
-
+                </div>
+                <!--Grid column-->
+                <div class="col col-md-6 mb-4">
+                    <h4 class="my-4 font-weight-bold">Workshops met een boodschap</h4>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
+                            data-target="#collapseMetBoodschap" aria-expanded="false"
+                            aria-controls="collapseMetBoodschap">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseMetBoodschap">
+                        <div class="card card-body">
+                            <ul>
+                                <li>Schilderen</li>
+                                <li>Biblejournaling</li>
+                                <li>Handlettering</li>
+                            </ul>
+                            <p>Deze workshops worden gegeven naar aanleiding van een bepaalde Bijbeltekst en is
+                                eventueel met Bijbelstudie</p>
+                        </div>
+                    </div>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Schilderen</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseSchilderen" aria-expanded="false" aria-controls="collapseSchilderen">
+                    <h4 class="my-4 font-weight-bold">Handlettering 2.0</h4>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
+                            data-target="#collapseHandlet" aria-expanded="false" aria-controls="collapseHandlet">
+                        Meer info
+                    </button>
+                    <div class="collapse" id="collapseHandlet">
+                        <div class="card card-body">
+                            Dit is meer info over Handlettering 2.0
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4 class="my-4 font-weight-bold">Schilderen op doek</h4>
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
+                            data-target="#collapseSchilderen" aria-expanded="false" aria-controls="collapseSchilderen">
                         Meer info
                     </button>
                     <div class="collapse" id="collapseSchilderen">
                         <div class="card card-body">
-                            Dit is meer info over bible journaling
+                            Dit is meer info over Schilderen op doek
                         </div>
                     </div>
-
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <h4 class="my-4 font-weight-bold">Pegdolls/houten poppetjes beschilderen</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapsePegdolls" aria-expanded="false" aria-controls="collapsePegdolls">
+                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
+                            data-target="#collapsePegdolls" aria-expanded="false" aria-controls="collapsePegdolls">
                         Meer info
                     </button>
                     <div class="collapse" id="collapsePegdolls">
                         <div class="card card-body">
-                            Dit is meer info over bible journaling
-                        </div>
-                    </div>
-
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-            <!--Grid row-->
-            <div class="row">
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-12 mb-4">
-                    <h4 class="my-4 font-weight-bold">Biblejournaling</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseBible" aria-expanded="false" aria-controls="collapseBible">
-                        Meer info
-                    </button>
-                    <div class="collapse" id="collapseBible">
-                        <div class="card card-body">
-                            Dit is meer info over bible journaling
+                            Dit is meer info over Pegdolls/houten poppetjes beschilderen
                         </div>
                     </div>
                 </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Tekenen</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseTekenen" aria-expanded="false" aria-controls="collapseTekenen">
-                        Meer info
-                    </button>
-                    <div class="collapse" id="collapseTekenen">
-                        <div class="card card-body">
-                            Dit is meer info over bible journaling
+                <!--Grid row-->
+                <!--Grid row-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <h4 class="my-4 font-weight-bold">Aquarellen</h4>
+                        <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
+                                data-target="#collapseAquarellen" aria-expanded="false"
+                                aria-controls="collapseAquarellen">
+                            Meer info
+                        </button>
+                        <div class="collapse" id="collapseAquarellen">
+                            <div class="card card-body">
+                                Dit is meer info over Aquarellen
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Sleutelhanger knopen</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseSleutel" aria-expanded="false" aria-controls="collapseSleutel">
-                        Meer info
-                    </button>
-                    <div class="collapse" id="collapseSleutel">
-                        <div class="card card-body">
-                            Dit is meer info over bible journaling
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <h4 class="my-4 font-weight-bold">Tekenen</h4>
+                        <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
+                                data-target="#collapseTekenen" aria-expanded="false" aria-controls="collapseTekenen">
+                            Meer info
+                        </button>
+                        <div class="collapse_workshops" id="collapseTekenen">
+                            <div class="card card-body">
+                                Dit is meer info over Tekenen
+                            </div>
                         </div>
                     </div>
-
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Gewoen een vissien eeten</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseVissien" aria-expanded="false" aria-controls="collapseVissien">
-                        Meer info
-                    </button>
-                    <div class="collapse" id="collapseVissien">
-                        <div class="card card-body">
-                            Dit is meer info over bible journaling
-                        </div>
-                    </div>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Netten breien/boeten </h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseBoeten" aria-expanded="false" aria-controls="collapseBoeten">
-                        Meer info
-                    </button>
-                    <div class="collapse" id="collapseBoeten">
-                        <div class="card card-body">
-                            Dit is meer info over bible journaling
-                        </div>
-                    </div>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Een klomp met een zeiltje</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse" data-target="#collapseKlomp" aria-expanded="false" aria-controls="collapseKlomp">
-                        Meer info
-                    </button>
-                    <div class="collapse" id="collapseKlomp">
-                        <div class="card card-body">
-                            Dit is meer info over bible journaling
-                        </div>
-                    </div>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-            </div>
             <div class="workshop_button ml-1">
-                <p><strong>Prijzen zijn vanaf 7,50 pp
-                        Minimaal 5 personen of vanaf 37,50</strong>
+                <p><strong>Prijzen zijn vanaf &#x20AC;9,50 p.p.
+                        Minimaal 5 personen of vanaf &#x20AC;47,50</strong>
                 </p>
-{{--                <a class="btn btn-primary btn-md text-center" href="{{route('workshops.index')}}">Lees meer</a>--}}
+                <p>In overleg is heel veel mogelijk</p>
+                {{--                <a class="btn btn-primary btn-md text-center" href="{{route('workshops.index')}}">Lees meer</a>--}}
             </div>
             <!--Grid row-->
         </section>

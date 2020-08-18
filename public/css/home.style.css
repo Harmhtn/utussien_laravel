@@ -50,6 +50,14 @@ section {
     }
 }
 
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    #intro {
+        background: url("../images/ussien_logo_mobile.jpg")no-repeat center center fixed;
+        background-size: 120%;
+    }
+}
+
 /*!*!* Medium devices (landscape tablets, 768px and up) *!*!*/
 /*@media only screen and (min-width: 768px) {*/
 /*    #intro {*/
@@ -81,9 +89,17 @@ section {
     /*font-family: 'Tangerine', cursive;*/
 }
 
-#workshops {
-
+#sfeerfoto {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
 }
+
+/*#workshops {*/
+/*    background: black url("images/rsz_chalkboard.jpg") no-repeat fixed center center;*/
+/*    color: white;*/
+/*    padding: 50px;*/
+/*}*/
 
 #workshops h1, h2, h4 {
     /*font-family: 'Calligraffitti', cursive;*/
@@ -93,6 +109,7 @@ section {
     /*font-family: 'Pinyon Script', cursive;*/
     /*font-family: 'Tangerine', cursive;*/
 }
+
 #subsidie {
 
 }
@@ -124,6 +141,7 @@ section {
     background-size: contain;
     background-repeat: repeat;
     height: 50px;
+    margin-bottom: 40px;
 }
 
 .map-responsive{
