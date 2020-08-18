@@ -200,7 +200,7 @@
                                 data-target="#collapseTekenen" aria-expanded="false" aria-controls="collapseTekenen">
                             Meer info
                         </button>
-                        <div class="collapse_workshops" id="collapseTekenen">
+                        <div class="collapse" id="collapseTekenen">
                             <div class="card card-body">
                                 Dit is meer info over Tekenen
                             </div>

@@ -32,7 +32,7 @@
                 <a class="nav-link" href="#nieuws">Nieuws</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route('kunst.index')}}">Janneke kunst in Opdracht</a>
+                <a class="nav-link" href="{{route('kunst.index')}}">Janneke Kunst in Opdracht</a>
             </li>
             <!-- Voor latere toevoeging-->
 {{--            <li class="nav-item">--}}
