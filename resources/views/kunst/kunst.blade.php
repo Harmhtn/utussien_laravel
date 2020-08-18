@@ -44,7 +44,13 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <p> Ik ben Janneke van Slooten</p>
+                        <p>In 2014 is Janneke begonnen met schilderen.
+                            Ze heeft veel lessen en workshops gevolgd om steeds nieuwe technieken te ontwikkelen. Ondertussen kreeg ze de smaak van tekenen ook te pakken.
+                            Nu geeft ze creatieve  workshops en werkt ze vooral veel in Opdracht , zo wel schilderen als bv portret tekeningen.
+                        </p>
+                        <p> Als u goed kijkt zie je dat Opdracht met een hoofdletter is geschreven.
+                            Dit is voor Janneke heel belangrijk, ze mag ervaren dat ze dit in Opdracht mag doen van haar Hemelse Vader.
+                            Daar is ze elke dag zeer dankbaar voor en deelt ze dit graag met jou.</p>
                     </div>
                 </div>
             </div>
