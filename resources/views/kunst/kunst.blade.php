@@ -80,19 +80,14 @@
                 <div class="instagram_feed">
                     <!-- section nieuws-->
                     <!-- Place <div> tag where you want the feed to appear -->
-                    <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank"
-                                                                  class="crt-logo crt-tag">Powered by Curator.io</a>
-                    </div>
+                    <div id="curator-feed-janneke-kunst-in-opdracht-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
                     <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
                     <script type="text/javascript">
-                        /* curator-feed-default-feed-layout */
-                        (function () {
-                            var i, e, d = document, s = "script";
-                            i = d.createElement("script");
-                            i.async = 1;
-                            i.src = "https://cdn.curator.io/published/47c541c0-d2be-423d-b9c2-714a101f4112.js";
-                            e = d.getElementsByTagName(s)[0];
-                            e.parentNode.insertBefore(i, e);
+                        /* curator-feed-janneke-kunst-in-opdracht-layout */
+                        (function(){
+                            var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+                            i.src = "https://cdn.curator.io/published/7a58bd2c-fcff-4caf-8e77-187783e7b82a.js";
+                            e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
                         })();
                     </script>
                 </div>

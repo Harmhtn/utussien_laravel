@@ -51,8 +51,7 @@
                 <!--Grid column-->
                 <div class="col-md-4 mb-5">
                     <h4 class="my-4 font-weight-bold">Ervaring</h4>
-                    <p>Kunt u, kun jij ontdekken waar de schuilkelder heeft gezeten?
-                        Misschien ontdek je nog wel meer verstopplekken.
+                    <p>Kijk en doe mee en ervaar hoe het vroeger was hier op het mooie Urk
                     </p>
                 </div>
                 <!--Grid column-->
@@ -64,7 +63,7 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-md-4 mb-1">
+                <div class="col-md-4 mb-1 rondleiding">
                     <h4 class="my-4 font-weight-bold">Rondleiding</h4>
                     <ul>
                         <li>Tot 2 jaar oud gratis</li>
@@ -137,76 +136,27 @@
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Handlettering 2.0</h4>
+                <div class="col col-md-6 mb-4">
+                    <h4 class="my-4 font-weight-bold">Meer workshops</h4>
                     <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
-                            data-target="#collapseHandlet" aria-expanded="false" aria-controls="collapseHandlet">
+                            data-target="#collapseMeer" aria-expanded="false"
+                            aria-controls="collapseMeer">
                         Meer info
                     </button>
-                    <div class="collapse" id="collapseHandlet">
+                    <div class="collapse" id="collapseMeer">
                         <div class="card card-body">
-                            Dit is meer info over Handlettering 2.0
+                            <ul>
+                                <li>Handlettering 2.0</li>
+                                <li>Schilderen op doek</li>
+                                <li>Pegdolls/houten poppetjes beschilderen</li>
+                                <li>Aquarellen</li>
+                                <li>Tekenen</li>
+                            </ul>
+                            <p>Deze workshops zijn altijd mogelijk</p>
                         </div>
                     </div>
                 </div>
                 <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Schilderen op doek</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
-                            data-target="#collapseSchilderen" aria-expanded="false" aria-controls="collapseSchilderen">
-                        Meer info
-                    </button>
-                    <div class="collapse" id="collapseSchilderen">
-                        <div class="card card-body">
-                            Dit is meer info over Schilderen op doek
-                        </div>
-                    </div>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h4 class="my-4 font-weight-bold">Pegdolls/houten poppetjes beschilderen</h4>
-                    <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
-                            data-target="#collapsePegdolls" aria-expanded="false" aria-controls="collapsePegdolls">
-                        Meer info
-                    </button>
-                    <div class="collapse" id="collapsePegdolls">
-                        <div class="card card-body">
-                            Dit is meer info over Pegdolls/houten poppetjes beschilderen
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-                <!--Grid row-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <h4 class="my-4 font-weight-bold">Aquarellen</h4>
-                        <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
-                                data-target="#collapseAquarellen" aria-expanded="false"
-                                aria-controls="collapseAquarellen">
-                            Meer info
-                        </button>
-                        <div class="collapse" id="collapseAquarellen">
-                            <div class="card card-body">
-                                Dit is meer info over Aquarellen
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <h4 class="my-4 font-weight-bold">Tekenen</h4>
-                        <button class="btn btn-outline-info m-2" type="button" data-toggle="collapse"
-                                data-target="#collapseTekenen" aria-expanded="false" aria-controls="collapseTekenen">
-                            Meer info
-                        </button>
-                        <div class="collapse" id="collapseTekenen">
-                            <div class="card card-body">
-                                Dit is meer info over Tekenen
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid column-->
                 </div>
             <div class="workshop_button ml-1">
                 <p><strong>Prijzen zijn vanaf &#x20AC;9,50 p.p.
@@ -245,7 +195,7 @@
                     <p class="grey-text">E.L.F.P.O. Europees landbouwfonds voor plattelandsontwikkeling.</p>
                 </div>
                 <div class="col-md-5 mb-5">
-                    <i><img src="images/leader_flevoland_logo.jpg" width="100px" height="80px"></i>
+                    <i><img src="images/leader_flevoland_logo.jpg" width="100px" height="50px"></i>
                     <h4 class="my-4 font-weight-bold">Leader</h4>
                     <p class="grey-text">LEADER is onderdeel van het Europese subsidieprogramma voor
                         plattelandsontwikkeling en draagt bij aan de ontwikkeling van plattelandsgebieden en stimuleert
@@ -267,9 +217,9 @@
 
                 <!--Grid column-->
                 <div class="col-md-5 mb-1">
-                    <i><img src="images/gemeente_urk_vlag.jpg" width="100px" height="80px"></i>
+                    <i><img src="images/gemeente_urk_vlag.jpg" width="120px" height="100px"></i>
                     <h4 class="my-4 font-weight-bold">Gemeente Urk</h4>
-                    <p class="grey-text"></p>
+                    <p class="grey-text">Gemeente Urk heeft meegeholpen om dit project te realiseren</p>
                 </div>
                 <!--Grid column-->
             </div>
@@ -345,21 +295,16 @@
             <div class="instagram_feed">
                 <!-- section nieuws-->
                 <!-- Place <div> tag where you want the feed to appear -->
-                <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank"
-                                                              class="crt-logo crt-tag">Powered by Curator.io</a></div>
+                <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
                 <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
                 <script type="text/javascript">
                     /* curator-feed-default-feed-layout */
-                    (function () {
-                        var i, e, d = document, s = "script";
-                        i = d.createElement("script");
-                        i.async = 1;
+                    (function(){
+                        var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
                         i.src = "https://cdn.curator.io/published/47c541c0-d2be-423d-b9c2-714a101f4112.js";
-                        e = d.getElementsByTagName(s)[0];
-                        e.parentNode.insertBefore(i, e);
+                        e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
                     })();
                 </script>
-
             </div>
         </section>
     </main>

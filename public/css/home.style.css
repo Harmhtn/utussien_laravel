@@ -171,6 +171,14 @@ section {
     /*font-family: 'Tangerine', cursive;*/
 }
 
+.collapse {
+    text-align: left;
+}
+
+.rondleiding {
+    text-align: left;
+}
+
 .footer-copyright .a{
     background-color: #ec1747;
     text-decoration: none;

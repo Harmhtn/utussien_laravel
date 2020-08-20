@@ -7,5 +7,6 @@
             </div>
             <!-- Copyright -->
         </div>
+    </div>
 </footer>
 
