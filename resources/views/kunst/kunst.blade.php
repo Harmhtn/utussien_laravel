@@ -19,10 +19,9 @@
                     <!-- Divider -->
                     <hr class="hr-light">
                     <!-- Description -->
-                    <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit.
-                        Deleniti
-                        consequuntur.</h4>
+                    <h4 class="white-text my-4">Jullie moeten elkaar helpen. God zal ervoor zorgen dat jullie dat kunnen.
+                        Want hij heeft aan ieder van jullie een bijzondere kracht gegeven,
+                        die je goed moet gebruiken</h4>
                 </div>
             </div>
         </div>
