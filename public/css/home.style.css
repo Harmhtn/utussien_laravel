@@ -175,7 +175,7 @@ section {
     text-align: left;
 }
 
-.rondleiding {
+.rondleiding > ul > li {
     text-align: left;
 }
 

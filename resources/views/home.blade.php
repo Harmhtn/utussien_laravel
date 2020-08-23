@@ -82,10 +82,10 @@
             <hr class="my-5">
         </div>
         <!--Section: Workshops-->
-        <section id="workshops" class="text-center">
+        <section id="workshops">
             <!-- Heading -->
-            <h2 class="m-5 font-weight-bold">Workshops</h2>
-            <p>In “Ut Kunstige Vissers Ussien” is meer te doen dan alleen maar te kijken!
+            <h2 class="m-5 font-weight-bold text-center">Workshops</h2>
+            <p class="text-center">In “Ut Kunstige Vissers Ussien” is meer te doen dan alleen maar te kijken!
                 Janneke van Slooten, van “Kunst in Opdracht’’ biedt verschillende workshops aan.
                 De workshops zijn voor jong, oud, en groepen.
                 In overleg is heel veel mogelijk, vraag geheel vrijblijvend voor meer informatie.
@@ -158,7 +158,7 @@
                 </div>
                 <!--Grid column-->
                 </div>
-            <div class="workshop_button ml-1">
+            <div class="workshop_button ml-1 text-center">
                 <p><strong>Prijzen zijn vanaf &#x20AC;9,50 p.p.
                         Minimaal 5 personen of vanaf &#x20AC;47,50</strong>
                 </p>
